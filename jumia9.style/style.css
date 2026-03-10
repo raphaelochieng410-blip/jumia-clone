@@ -1,0 +1,456 @@
+body{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.page1{
+    height: 50vh;
+    width: 100%;
+}
+.container1{
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+}
+.navbar{
+    height: 15%;
+    width: 100%;
+   position: fixed;
+   background-color: white;
+   
+}
+
+.smallnav{
+    height: 20%;
+    width: 100%;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.nvb1{
+     height: 100%;
+    width: 70%;
+   
+    display: flex;
+}
+.nvb1left{
+    height: 100%;
+    width: 20%;
+    
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+.nvb1left h5{
+    color: orange;
+}
+.nvb1left:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    cursor: pointer;
+}
+.nvb1centre{
+    height: 100%;
+    width: 80%;
+    
+    display: flex;
+}
+.centreleft{
+    height: 100%;
+    width: 10%;
+   
+    margin-left: 200px;
+}
+.image1{
+    height: 100%;
+    width: 100%;
+    
+}
+.image1 img{
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+    
+}
+.centrecentre{
+    height: 100%;
+    width: 5%;
+    background-color: white;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    background-color: whitesmoke;
+}
+.centrecentre h4{
+    color: gray;
+}
+.centrecentre h4:hover{
+    color: blue;
+    cursor: pointer;
+}
+.centreright{
+    height: 100%;
+    width: 10%;
+    
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+.centreright h4{
+    color: gray;
+}
+.centreright h4:hover{
+    color: black;
+    cursor: pointer;
+}
+.navbarstyle{
+    height: 80%;
+    width: 100%;
+  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.nvb2{
+    height: 100%;
+    width: 70%;
+   
+    display: flex;
+}
+.nvb2left{
+    height: 100%;
+    width: 20%;
+   
+}
+.image2{
+    height: 100%;
+    width: 100%;
+    
+}
+.image2 img{
+    
+    height: 90%;
+    width: 70%;
+    
+}
+.nvb2centre{
+    height: 100%;
+    width: 50%;
+    
+}
+.centre2{
+    height: 100%;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.search{
+    height: 50%;
+    width: 80%;
+   
+   
+}
+.search input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.searchb{
+    height: 50%;
+    width: 20%;
+    
+}
+.searchb button{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+    font-weight: 600;
+}
+.searchb button:hover{
+    background-color: rgba(255, 166, 0, 0.527);
+    cursor: pointer;
+}
+.nvb2right{
+    height: 100%;
+    width: 30%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.acc{
+    height: 50%;
+    width: 33.33%;
+   
+}
+
+.acc select{
+    height: 100%;
+    width: 100%;
+    border: none;
+    margin-left: 20px;
+}
+.acc select:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.help1{
+    height: 50%;
+    width: 33.34%;
+    margin-left: 20px;
+}
+.help1 select{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.help1 select:hover{
+    color: orange;
+    cursor: pointer;
+}
+.cart1{
+    height: 50%;
+    width: 33.33%;
+    
+    align-items: center;
+    display: flex;
+}
+.cart1 p:hover{
+    cursor: pointer;
+}
+.cart1:hover{
+    color: orange;
+}
+.pagedown{
+    height: 85%;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.pagedown1{
+    height: 100%;
+    width: 60%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 50px;
+}
+.pagedownone{
+    height: 50%;
+    width: 70%;
+    background-color: white;
+    margin-top: 140px;
+    border-radius: 5px;
+}
+.pdt1{
+    height: 25%;
+    width: 100%;
+   
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: center;
+}
+.pdt1 h2{
+    margin-left: 10px;
+}
+.pdt2{
+    height: 60%;
+    width: 100%;
+   
+    display: flex;
+}
+.pdt2:hover{
+    cursor: pointer;
+}
+.pdt2left{
+    height: 100%;
+    width: 70%;
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pdt2leftleft{
+    height: 80%;
+    width: 20%;
+  
+}
+.pdt2leftleft img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.pdt2leftright{
+    height: 80%;
+    width: 60%;
+  
+}
+.pdt2leftright p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.pdt2leftright h5{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.pdt2right{
+    height: 100%;
+    width: 30%;
+  
+}
+.pdt2righttop{
+    height: 30%;
+    width: 100%;
+  
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.pdt2righttop h2{
+    margin-right: 10px;
+}
+.pdt2rightbottom{
+    height: 40%;
+    width: 100%;
+  
+    display: flex;
+}
+.rbleft{
+    height: 100%;
+    width: 70%;
+    
+      display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.rbleft p{
+    text-decoration: line-through;
+}
+.rbright{
+    height: 70%;
+    width: 30%;
+    background-color: rgb(218, 186, 128);
+      display: flex;
+    align-items: baseline;
+    justify-content: right;
+    margin-right: 10px;
+}
+.rbright p{
+    color: orangered;
+}
+.pdt3{
+    height: 20%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: right;
+   
+}
+.pdt3right{
+    height: 100%;
+    width: 20%;
+    
+}
+.pdt3right input{
+    height: 50%;
+    width: 90%;
+}
+.pagedowntwo{
+    height: 40%;
+    width: 30%;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.downtwotop{
+    height: 30%;
+    width: 100%;
+    
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: center;
+    
+}
+.downtwotop h2{
+    margin-left: 10px;
+}
+.downtwotop select{
+    margin-left: 20px;
+    width: 50%;
+    height: 50%;
+
+}
+.downtwocentre{
+    height: 35%;
+    width: 100%;
+    
+    border-bottom: 1px solid;
+    display: flex;
+}
+.dc1{
+    height: 100%;
+    width: 40%;
+   
+    display: flex;
+    align-items: center;
+}
+.dc1 h4{
+    margin-left: 10px;
+}
+.dc2{
+    height: 100%;
+    width: 60%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+.dc2 p{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.downtwobottom{
+    height: 35%;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dtb{
+    height: 90%;
+    width: 95%;
+    
+}
+.dtb button{
+    height: 90%;
+    width: 100%;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+.dtb button:hover{
+    background-color: rgba(255, 166, 0, 0.534);
+    cursor: pointer;
+}
+  

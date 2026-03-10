@@ -1,0 +1,487 @@
+body{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.page1{
+    height: 70vh;
+    width: 100%;
+}
+.container1{
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+}
+.navbar{
+    height: 15%;
+    width: 100%;
+   position: fixed;
+   background-color: white;
+   
+}
+
+.smallnav{
+    height: 20%;
+    width: 100%;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.nvb1{
+     height: 100%;
+    width: 70%;
+   
+    display: flex;
+}
+.nvb1left{
+    height: 100%;
+    width: 20%;
+    
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+.nvb1left h5{
+    color: orange;
+}
+.nvb1left:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    cursor: pointer;
+}
+.nvb1centre{
+    height: 100%;
+    width: 80%;
+    
+    display: flex;
+}
+.centreleft{
+    height: 100%;
+    width: 10%;
+   
+    margin-left: 200px;
+}
+.image1{
+    height: 100%;
+    width: 100%;
+    
+}
+.image1 img{
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+    
+}
+.centrecentre{
+    height: 100%;
+    width: 5%;
+    background-color: white;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    background-color: whitesmoke;
+}
+.centrecentre h4{
+    color: gray;
+}
+.centrecentre h4:hover{
+    color: blue;
+    cursor: pointer;
+}
+.centreright{
+    height: 100%;
+    width: 10%;
+    
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+.centreright h4{
+    color: gray;
+}
+.centreright h4:hover{
+    color: black;
+    cursor: pointer;
+}
+.navbarstyle{
+    height: 80%;
+    width: 100%;
+  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.nvb2{
+    height: 100%;
+    width: 70%;
+   
+    display: flex;
+}
+.nvb2left{
+    height: 100%;
+    width: 20%;
+   
+}
+.image2{
+    height: 100%;
+    width: 100%;
+    
+}
+.image2 img{
+    
+    height: 90%;
+    width: 70%;
+    
+}
+.nvb2centre{
+    height: 100%;
+    width: 50%;
+    
+}
+.centre2{
+    height: 100%;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.search{
+    height: 50%;
+    width: 80%;
+   
+   
+}
+.search input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.searchb{
+    height: 50%;
+    width: 20%;
+    
+}
+.searchb button{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+    font-weight: 600;
+}
+.searchb button:hover{
+    background-color: rgba(255, 166, 0, 0.527);
+    cursor: pointer;
+}
+.nvb2right{
+    height: 100%;
+    width: 30%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.acc{
+    height: 50%;
+    width: 33.33%;
+   
+}
+
+.acc select{
+    height: 100%;
+    width: 100%;
+    border: none;
+    margin-left: 20px;
+}
+.acc select:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.help1{
+    height: 50%;
+    width: 33.34%;
+    margin-left: 20px;
+}
+.help1 select{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.help1 select:hover{
+    color: orange;
+    cursor: pointer;
+}
+.cart1{
+    height: 50%;
+    width: 33.33%;
+    
+    align-items: center;
+    display: flex;
+}
+.cart1 p:hover{
+    cursor: pointer;
+}
+.cart1:hover{
+    color: orange;
+}
+.pagedown{
+    height: 85%;
+    width: 100%;
+    
+    margin-top: 130px;
+    
+}
+.down1{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insidedown1{
+    height: 100%;
+    width: 70%;
+    
+}
+.insidedowntop{
+    height: 20%;
+    width: 100%;
+   
+    display: flex;
+}
+.topcont{
+    height: 50%;
+    width: 100%;
+    background-color: orange;
+    margin-top: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topcont h1{
+    color: white;
+}
+.insidedownbottom{
+    height: 80%;
+    width: 100%;
+    
+    display: flex;
+    gap: 20px;
+}
+.tv1{
+    height: 90%;
+    width: 25%;
+    margin-top: 20px;
+    background-color: white;
+}
+.tv1:hover{
+    transform: scale(1.1);
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.171);
+    cursor: pointer;
+}
+.tv1top{
+    height: 60%;
+    width: 100%;
+    
+}
+.image3{
+    height: 100%;
+    width: 100%;
+    
+}
+.image3 img{
+    height: 100%;
+    width: 100%;
+
+}
+.tv1centre{
+    height: 10%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tv1centre p{
+    font-size: 20px;
+}
+.tv1bottom{
+    height: 30%;
+    width: 100%;
+
+   margin-top: 0px;
+}
+.tv1bottom h3{
+    margin-top: 0px;
+}
+.tv1bottom p{
+    text-decoration: line-through;
+}
+.tv2{
+    height: 90%;
+    width: 25%;
+    margin-top: 20px;
+    background-color: white;
+}
+.tv2:hover{
+    transform: scale(1.1);
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.171);
+    cursor: pointer;
+}
+.tv2top{
+    height: 60%;
+    width: 100%;
+   
+}
+.image4{
+    height: 100%;
+    width: 100%;
+    
+}
+.image4 img{
+    height: 100%;
+    width: 100%;
+
+}
+.tv2centre{
+    height: 10%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tv2centre p{
+    font-size: 18px;
+}
+.tv2bottom{
+    height: 30%;
+    width: 100%;
+    
+   margin-top: 0px;
+}
+.tv2bottom h3{
+    margin-top: 0px;
+}
+.tv2bottom p{
+    text-decoration: line-through;
+}
+.tv3{
+    height: 90%;
+    width: 25%;
+    margin-top: 20px;
+    background-color: white;
+}
+.tv3:hover{
+    transform: scale(1.1);
+     border: 1px solid;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.171);
+    cursor: pointer;
+}
+.tv3top{
+    height: 60%;
+    width: 100%;
+    
+}
+.image5{
+    height: 100%;
+    width: 100%;
+    
+}
+.image5 img{
+    height: 100%;
+    width: 100%;
+
+}
+.tv3centre{
+    height: 10%;
+    width: 100%;
+   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tv3centre p{
+    font-size: 18px;
+}
+.tv3bottom{
+    height: 30%;
+    width: 100%;
+    
+   margin-top: 0px;
+}
+.tv3bottom h3{
+    margin-top: 0px;
+}
+.tv3bottom p{
+    text-decoration: line-through;
+}
+.tv4{
+    height: 90%;
+    width: 25%;
+    margin-top: 20px;
+    background-color: white;
+}
+.tv4:hover{
+    transform: scale(1.1);
+     border: 1px solid;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.171);
+    cursor: pointer;
+}
+.tv4top{
+    height: 60%;
+    width: 100%;
+    
+}
+.image6{
+    height: 100%;
+    width: 100%;
+   
+}
+.image6 img{
+    height: 100%;
+    width: 100%;
+
+}
+.tv4centre{
+    height: 10%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tv4centre p{
+    font-size: 18px;
+}
+.tv4bottom{
+    height: 30%;
+    width: 100%;
+    
+   margin-top: 0px;
+}
+.tv4bottom h3{
+    margin-top: 0px;
+}
+.tv4bottom p{
+    text-decoration: line-through;
+}
+
+
+
+
